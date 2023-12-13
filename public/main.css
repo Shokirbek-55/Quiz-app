@@ -1,0 +1,82 @@
+body {
+	margin: 0px;
+	height: 100vh;
+	display: grid;
+	place-items: center;
+	min-height: 100vh;
+ background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(11,1,117,1) 37%, rgba(0,32,255,1) 100%);
+}
+.container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	gap: 40px;
+
+}
+
+
+#title {
+position: absolute;
+top: 20px;
+left: 20px;
+}
+
+.quiz {
+	display: flex;
+	justify-content: center;
+	width: 500px;
+	height: 80px;
+	gap: 20px;
+	align-items: center;
+	background-color: rgb(61, 226, 43);
+	border-radius: 12px;
+}
+
+.answers {
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	grid-template-rows: 2fr 2fr;
+	gap: 50px;
+
+
+}
+
+.btn {
+	display: grid;
+	place-items: center;
+	width:60px;
+height: 60px;
+
+
+}
+
+
+.boxes {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+
+
+}
+
+.points {
+	display: flex;
+  gap: 10px;
+		width: 820px;
+		padding: 10px;
+		border: 2px dashed black;
+	pointer-events: none;
+}
+
+.points .point {
+display: grid;
+place-items: center;
+font-size: 20px;
+height: 70px;
+width: 70px;
+color: #fff;
+border-radius: 50px;
+}
+
+
